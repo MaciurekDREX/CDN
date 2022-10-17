@@ -1,0 +1,46 @@
+div.card{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  border-radius: 10px; 
+  border-color: black; 
+  margin-left: 10%; 
+  margin-right: 10%; 
+  margin-top: 2%; 
+  margin-bottom: 2%; 
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background: #000000;
+  background-color: #000000;
+}
+
+img {
+  height: auto; 
+  width: auto;
+  margin-bottom: 2%;
+  border-radius: 2px;
+}
+
+input, input#file-upload-button{
+  border-radius: 10px;
+  border-color: black;
+  padding: 5px;
+  background: black;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #ff0077, #2d76ff, #3cd421, #e7d219, #ff0077);
+    background-size: 400%;
+    z-index: 1;
+    animation: glow 8s linear infinite;
+}
+
+#getBTN {
+  border-radius: 10px;
+  border-color: black;
+  padding: 5px;
+  background: orange;
+}
